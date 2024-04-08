@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor</title>
+</head>
+<body>
+    <h1>Medidor de Altura</h1>
+    <p>Digite sua Altura</p>
+    <input type="number" name="n1" id="n1">
+    <input type="button" value="Medir" onclick="medir()">
+    <div id="res">Resultado</div>
+    <img src="gabigol.jpg" alt="">
+</body>
+<script>
+    function medir() {
+        let altura = window.document.getElementById('n1')
+        let resultado = window.document.getElementById('res')
+        let a1 = Number(altura.value)
+        let m = a1
+        res.innerHTML = `Sua altura é de ${m} metros`
+        
+    }
+</script>
+</html>
